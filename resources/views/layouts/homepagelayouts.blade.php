@@ -16,13 +16,13 @@
   <link rel="stylesheet" href="{{ asset('assets/fundraiser/css/owl.theme.default.min.css') }}">
   <link rel="stylesheet" href="{{ asset('assets/fundraiser/fonts/flaticon/font/flaticon.css') }}">
   <link rel="stylesheet" href="{{ asset('assets/fundraiser/css/aos.css') }}">
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.js"></script>
 
   <!-- MAIN CSS -->
   <link rel="stylesheet" href="{{ asset('assets/fundraiser/css/style.css') }}">
-  <script src="{{ asset('js/app.js') }}"></script>
 </head>
 <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
 @yield('main-content')
-@include('sweet::alert')
 </body>
 </html>

@@ -33,6 +33,7 @@ class AdminController extends Controller
             if ($cek_password) {
                 if ($data_login->level == 1) {
                     $users = session(['data_login' => $data_login]);
+                    Alert::success('pesan yang ingin disampaikan', 'Judul Pesan');
                     return redirect('/admin');
                 }
             }

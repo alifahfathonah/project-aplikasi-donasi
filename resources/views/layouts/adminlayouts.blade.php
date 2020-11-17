@@ -10,9 +10,10 @@
     <meta name="author" content="" />
     <title>Admin - AssyifaPeduli</title>
     <link href="{{ asset('assets/css/styles.css') }}" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js" crossorigin="anonymous">
     </script>
-    <script src="{{ asset('js/app.js') }}"></script>
     @yield('after-style')
 </head>
 
@@ -89,7 +90,6 @@
     </script>
     <script src="{{ asset('assets/js/scripts.js') }}"></script>
     @yield('after-script')
-    @include('sweet::alert')
 </body>
 
 </html>
