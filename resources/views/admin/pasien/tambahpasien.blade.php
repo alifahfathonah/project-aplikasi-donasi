@@ -2,6 +2,13 @@
 
 @section('after-style')
 <script src="https://cdn.ckeditor.com/4.15.0/standard/ckeditor.js"></script>
+<style>
+#image-preview{
+      display:none;
+      width : 250px;
+      height : 300px;
+  }
+</style>
 @endsection
 
 @section('main-content')
@@ -13,7 +20,7 @@
     <div class="card-body">
 
       <div class="container">
-        <form action="{{ url('/admin/pasien/tambah-pasien') }}" method="POST">
+        <form action="{{ route('post-tambah-pasien') }}" method="POST" enctype="multipart/form-data">
           @csrf
           <div class="form-group row">
             <label for="inputnama" class="col-sm-2 col-form-label">Nama Pasien</label>
@@ -22,7 +29,16 @@
                 placeholder="Masukkan nama pasien...">
             </div>
           </div>
-
+          
+          <div class="form-group row">
+            <div class="col-sm-10 my-2">
+              <label for="image-preview" class="col-sm-2 col-form-label">Upload Foto</label>
+            <img id="image-preview" alt="Preview Gambar "/>
+              <br/>
+            <input name="gambar" type="file" id="image-source" onchange="previewImage();"/>
+            </div>
+          </div>
+          
           <div class="form-group row">
             <label for="inputkronologi" class="col-sm-2 col-form-label">Kronologi</label>
             <div class="col-sm-10">
@@ -120,6 +136,15 @@
 
 <script>
   CKEDITOR.replace( 'editor1' );
+  function previewImage() {
+    document.getElementById("image-preview").style.display = "block";
+    var oFReader = new FileReader();
+     oFReader.readAsDataURL(document.getElementById("image-source").files[0]);
+ 
+    oFReader.onload = function(oFREvent) {
+      document.getElementById("image-preview").src = oFREvent.target.result;
+    };
+  };
 </script>
 
 @endsection

@@ -98,10 +98,19 @@ class AdminController extends Controller
 
     public function posttambahpasien(Request $request)
     {
+        $validated = $request->validate([
+            'gambar' => 'mimes:jpeg,png|max:1014'
+        ]);
+        $gambar_cek = $request->file('gambar');
+        if (!$gambar_cek) {
+            $gambar = null;
+        }
+        $gambar = $request->file('gambar')->store('gambar');
         $newPasien = new Pasien;
         $newPasien = Pasien::create([
             'pasien_nama' => $request->pasien_nama,
             'pasien_kronologi' => $request->pasien_kronologi,
+            'gambar' => $gambar,
             'pasien_anakkeberapa' => $request->pasien_anakkeberapa,
             'pasien_jumlahsaudara' => $request->pasien_jumlahsaudara,
             'pasien_namaibu' => $request->pasien_namaibu,
@@ -114,7 +123,8 @@ class AdminController extends Controller
             'created_at' => now(),
             'updated_at' => now()
         ]);
-        $newPasien->save();
+        // $newPasien->save();
+        dd($newPasien);
         return redirect()->route('tambah-pasien');
     }
 }
