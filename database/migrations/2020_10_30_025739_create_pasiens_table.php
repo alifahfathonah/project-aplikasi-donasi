@@ -17,6 +17,7 @@ class CreatePasiensTable extends Migration
             $table->id();
             $table->string('pasien_nama');
             $table->longText('pasien_kronologi');
+            $table->string('gambar')->nullable();
             $table->string('pasien_anakkeberapa');
             $table->string('pasien_jumlahsaudara');
             $table->string('pasien_namaibu');

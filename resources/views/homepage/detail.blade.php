@@ -42,7 +42,27 @@
 
                         <hr>
 
-                        <p class="justify-content-around">
+                        <p>
+                            <h5>
+                                Informasi Orang tua/Wali
+                            </h5><br>
+                            Nama Ibu &nbsp;&nbsp; : Contoh Nama Ibu<br>
+                            Nama Ayah : Contoh Nama Ayah
+                        </p>
+
+                        <hr>
+
+                        <p>
+                            <h5>
+                                Pekerjaan Orang tua/wali
+                            </h5><br>
+                            Pekerjaan Ibu &nbsp;&nbsp; : Contoh Pekerjaan Ibu<br>
+                            Pekerjaan Ayah : Contoh Pekerjaan Ayah
+                        </p>
+
+                        <hr>
+
+                        <p class="text-justify">
                             <b>Tentang Pasien : </b>
                             <br>
                             galley of type and scrambled it to make a type specimen book. It has survived not only five
@@ -73,24 +93,6 @@
                         </p>
 
                         <hr>
-
-                        <p>
-                            <h5>
-                                Informasi Orang tua/Wali
-                            </h5><br>
-                            Nama Ibu &nbsp;&nbsp; : Contoh Nama Ibu<br>
-                            Nama Ayah : Contoh Nama Ayah
-                        </p>
-
-                        <hr>
-
-                        <p>
-                            <h5>
-                                Informasi Orang tua/Wali
-                            </h5><br>
-                            Pekerjaan Ibu &nbsp;&nbsp; : Contoh Pekerjaan Ibu<br>
-                            Pekerjaan Ayah : Contoh Pekerjaan Ayah
-                        </p>
 
                     </div>
 
