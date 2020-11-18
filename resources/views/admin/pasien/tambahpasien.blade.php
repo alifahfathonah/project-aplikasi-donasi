@@ -23,6 +23,14 @@
         <form action="{{ route('post-tambah-pasien') }}" method="POST" enctype="multipart/form-data">
           @csrf
           <div class="form-group row">
+            <label for="inputnama" class="col-sm-2 col-form-label">Judul</label>
+            <div class="col-sm-10">
+              <input name="pasien_judul" type="text" class="form-control" id="inputnama"
+                placeholder="Masukkan cover header...">
+            </div>
+          </div>
+
+          <div class="form-group row">
             <label for="inputnama" class="col-sm-2 col-form-label">Nama Pasien</label>
             <div class="col-sm-10">
               <input name="pasien_nama" type="text" class="form-control" id="inputnama"

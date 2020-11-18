@@ -9,6 +9,7 @@ class Pasien extends Model
     protected $table = 'pasien';
 
     protected $fillable = [
+        'pasien_judul',
         'pasien_nama',
         'pasien_kronologi',
         'gambar',

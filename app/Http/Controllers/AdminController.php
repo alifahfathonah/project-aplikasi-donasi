@@ -108,6 +108,7 @@ class AdminController extends Controller
         $gambar = $request->file('gambar')->store('gambar');
         $newPasien = new Pasien;
         $newPasien = Pasien::create([
+            'pasien_judul' => $request->pasien_judul,
             'pasien_nama' => $request->pasien_nama,
             'pasien_kronologi' => $request->pasien_kronologi,
             'gambar' => $gambar,

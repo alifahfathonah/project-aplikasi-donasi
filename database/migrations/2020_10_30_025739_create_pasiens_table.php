@@ -15,6 +15,7 @@ class CreatePasiensTable extends Migration
     {
         Schema::create('pasien', function (Blueprint $table) {
             $table->id();
+            $table->text('pasien_judul');
             $table->string('pasien_nama');
             $table->longText('pasien_kronologi');
             $table->string('gambar')->nullable();
