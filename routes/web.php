@@ -3,7 +3,7 @@
 use Illuminate\Support\Facades\Route;
 
 // Routing 
-Route::get('/', 'HomeController@index');
+Route::get('/', 'HomeController@index')->name('home');
 Route::get('/pasien', 'HomeController@getdetailpasien');
 
 Route::get('/login', 'AdminController@login')->name('login-admin');

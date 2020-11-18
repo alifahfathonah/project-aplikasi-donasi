@@ -17,7 +17,7 @@
         <div class="d-inline-flex text-white">
             <h4>Detail Pasien</h4>
         </div>
-        <a href="#" class="btn btn-success text-center align-items-center">
+    <a href="{{ route('home') }}" class="btn btn-success text-center align-items-center">
             Kembali
         </a>
     </nav>
@@ -28,10 +28,14 @@
             <div class="col-lg-6 mx-auto">
                 <div class="card border-0">
 
-                    <div class="card-body">
+                    <div class="card-body text-center">
                         <img src="https://images.bisnis-cdn.com/thumb/posts/2020/04/01/1220635/images-7_copy_800x500.jpeg?w=744&h=465"
                             class="img-fluid my-1">
 
+                            <h4>
+                                Judul Cover Pasien Donasi
+                            </h4>
+                            <hr>
                         <h4>
                             Nama Pasien
                         </h4>
