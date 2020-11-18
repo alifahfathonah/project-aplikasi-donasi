@@ -97,6 +97,23 @@
                         </p>
 
                         <hr>
+                        
+                        <p>
+                            <b>
+                                Harapan : 
+                            </b>
+                            <p>
+                                HARAPAN MENJADI INI
+                            </p>
+                            <hr>
+                        </p>
+                            <b>
+                                Cita-Cita : 
+                            </b>
+                            <p>
+                                CITA CITA MENJADI ITU
+                            </p>
+                        </p>
 
                     </div>
 

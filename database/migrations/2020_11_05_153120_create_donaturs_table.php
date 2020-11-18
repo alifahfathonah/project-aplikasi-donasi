@@ -15,7 +15,7 @@ class CreateDonatursTable extends Migration
     {
         Schema::create('donatur', function (Blueprint $table) {
             $table->id();
-            $table->string('donatur_nama');
+            $table->string('donatur_nama')->nullable();
             $table->string('donatur_namaalias');
             $table->integer('donatur_nominal');
             $table->string('donatur_pesan');
