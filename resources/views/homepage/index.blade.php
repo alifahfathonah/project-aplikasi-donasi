@@ -88,38 +88,51 @@
     </div>
     
   </div>
-
+  {{-- https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXp3DxP80ArpRzsB0XWBG9Ow5GeuefbLrUHw&usqp=CAU --}}
 {{-- Main Content Here  --}}
 
-<div class="container my-5 py-5 mx-auto d-inline-flex">
+<div class="container my-5 py-5">
 
 {{-- <div class="col-lg-12 mx-auto d-inline-flex"> --}}
 
-  <div class="col-sm-4">
-    <div class="card" style="width: 18rem;">
-      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXp3DxP80ArpRzsB0XWBG9Ow5GeuefbLrUHw&usqp=CAU" class="card-img-top img-fluid" width="250px" alt="...">
-      <div class="card-body">
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-      </div>
-    </div>
-  </div>
+  <div class="col-sm-12 mx-auto d-flex">
 
-  <div class="col-sm-4">
-    <div class="card" style="width: 18rem;">
-      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXp3DxP80ArpRzsB0XWBG9Ow5GeuefbLrUHw&usqp=CAU" class="card-img-top img-fluid" width="250px" alt="...">
+    <div class="card ml-2 mr-2">
+      <img src=" https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXp3DxP80ArpRzsB0XWBG9Ow5GeuefbLrUHw&usqp=CAU" class="card-img-top img-fluid" alt="...">
       <div class="card-body">
+        <h5 class="card-title">Card title</h5>
         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
       </div>
     </div>
-  </div>
 
-  <div class="col-sm-4">
-    <div class="card" style="width: 18rem;">
-      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXp3DxP80ArpRzsB0XWBG9Ow5GeuefbLrUHw&usqp=CAU" class="card-img-top img-fluid" width="250px" alt="...">
+    <div class="card ml-2 mr-2">
+      <img src=" https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXp3DxP80ArpRzsB0XWBG9Ow5GeuefbLrUHw&usqp=CAU" class="card-img-top img-fluid" alt="...">
       <div class="card-body">
+        <h5 class="card-title">Card title</h5>
         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
       </div>
     </div>
+  
+    <div class="card ml-2 mr-2">
+      <img src=" https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXp3DxP80ArpRzsB0XWBG9Ow5GeuefbLrUHw&usqp=CAU" class="card-img-top img-fluid" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+      </div>
+    </div>
+  
+    <div class="card ml-2 mr-2">
+      <img src=" https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXp3DxP80ArpRzsB0XWBG9Ow5GeuefbLrUHw&usqp=CAU" class="card-img-top img-fluid" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+      </div>
+    </div>
+
   </div>
 
 {{-- </div> --}}
